@@ -18,7 +18,7 @@ Use it like this:
     where = s.searchForward();
     where = s.searchForward();
 
-.. image:: https://github.com/luca-s/java-backward-regexp-search/raw/master/exaple.png
+.. image:: https://github.com/luca-s/java-backward-regexp-search/raw/master/example.png
 
 Because java regexp doesn't support backward search capabilities, the class has to simulate it. 
 To simulate the backward search (that Java class doesn't have) the input data is divided into chunks and each chunk is searched from last to first until a match is found (inter-chunk matches are returned from last to first too).
